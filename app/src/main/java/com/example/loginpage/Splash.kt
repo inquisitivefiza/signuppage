@@ -22,8 +22,8 @@ fun Splash(navController: NavHostController) {
 
     LaunchedEffect(key1 = true) {
         delay(3000) // Delay for 3 seconds
-        navController.navigate("home") {
-            popUpTo("splash") { inclusive = true }
+        navController.navigate("Login") {
+            popUpTo("Splash") { inclusive = true }
         }
     }
     Box(

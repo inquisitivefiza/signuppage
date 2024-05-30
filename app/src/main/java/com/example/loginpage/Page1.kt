@@ -159,7 +159,7 @@ fun Login(navController: NavHostController) {
 @Composable
 fun ButtonWithRoundCornerShape(navController: NavHostController) {
     Button(
-        onClick = {navController.navigate("page2")},
+        onClick = {navController.navigate("Page")},
         colors = ButtonDefaults.run { buttonColors(Color(0xFFFF9800)) },
 
         shape = RoundedCornerShape(20.dp),
